@@ -1,0 +1,11 @@
+header{
+    /* position: relative;
+    left: 10%;
+    right: -140%; */
+    position: absolute;
+    left: 10%;
+}
+ul > li{
+    position: relative;
+    right: 50%;
+}

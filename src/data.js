@@ -3,7 +3,7 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
+  FiLinkedin,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -85,7 +85,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiDribbble />,
+    icon: <FiLinkedin/>,
     href: '',
   },
 ];
