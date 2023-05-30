@@ -5,7 +5,7 @@ import { navigation } from '../../data'
 function Logo() {
   return (
     <nav>
-        <ul className='flex space-x-8 capitalize text-[15px]'>
+        <ul className='flex space-x-8 capitalize text-[15px]' id='nav-links'>
         {navigation.map((item, index) => {
             return(
               <li className='text-white hover:text-accent

@@ -15,8 +15,8 @@ function Navbar() {
   return (
     <header className={`${bg ? 'bg-tertiary h-20' : 'h-24'}
     flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300 
-    `}>
-      <div className='container mx-auto h-full flex items-center justify between'> 
+    `} id= 'navbar'>
+      <div className='container mx-auto h-full flex items-center justify between' id='logo-name'> 
        <a href='#'>Barbra Mududa </a> 
       </div>
       <div className='hidden lg:block'>

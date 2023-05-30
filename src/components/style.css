@@ -1,11 +1,17 @@
-header{
-    /* position: relative;
-    left: 10%;
-    right: -140%; */
-    position: absolute;
-    left: 10%;
-}
-ul > li{
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#logo-name{
     position: relative;
-    right: 50%;
+    left: 10rem; 
+    font-size: 4em;
+    font-family: 'Lobster', cursive;}
+#nav-links{
+    position: relative;
+    right: 6rem;
+    font-size: 1.2em;
+}
+
+#menu{
+    position: relative;
+    right: 2.5rem;
 }

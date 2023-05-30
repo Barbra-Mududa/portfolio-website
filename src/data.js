@@ -10,6 +10,7 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiFigma
 } from 'react-icons/fi';
 
 // companies icons
@@ -73,20 +74,20 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
+    icon: <FiMail />,
     href: '',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiFigma />,
+    href: 'https://www.figma.com/files/drafts?fuid=1202324557437039500',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/Barbra-Mududa',
   },
   {
     icon: <FiLinkedin/>,
-    href: '',
+    href: 'https://www.linkedin.com/in/barbra-mududa-30a36124b/',
   },
 ];
 
