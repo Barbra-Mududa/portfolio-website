@@ -1,7 +1,5 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
   FiGithub,
   FiLinkedin,
   FiLayout,
@@ -33,10 +31,14 @@ import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg5 from './assets/img/skills/ruby.png';
+// import SkillImg6 from './assets/img/skills/rails.png';
+import SkillImg7 from './assets/img/skills/mysql.png';
+import SkillImg8 from './assets/img/skills/nodejs.png';
+import SkillImg9 from './assets/img/skills/git.png';
+import SkillImg10 from './assets/img/skills/figma.png';
+import SkillImg11 from './assets/img/skills/jira.png';
+
 
 // blogs images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -188,14 +190,23 @@ export const skills = [
   {
     image: SkillImg5,
   },
-  {
-    image: SkillImg6,
-  },
+  // {
+  //   image: SkillImg6,
+  // },
   {
     image: SkillImg7,
   },
   {
     image: SkillImg8,
+  },
+  {
+    image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
+  },
+  {
+    image: SkillImg11,
   },
 ];
 
