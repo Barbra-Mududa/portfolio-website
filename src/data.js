@@ -14,11 +14,11 @@ import {
 } from 'react-icons/fi';
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+// import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
+// import UpworkBrandIcon from './assets/img/brands/upwork.png';
+// import FiverBrandIcon from './assets/img/brands/fiverr.png';
+// import BehanceBrandIcon from './assets/img/brands/behance.png';
+// import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -38,7 +38,7 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
-// testimonial images
+// blogs images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
@@ -92,28 +92,28 @@ export const social = [
 ];
 
 // companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
+// export const brands = [
+//   {
+//     img: FreelancerBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: UpworkBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: FiverBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: BehanceBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: DribbbleBrandIcon,
+//     href: '',
+//   },
+// ];
 
 // projects
 export const projectsData = [
