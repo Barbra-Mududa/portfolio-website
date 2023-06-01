@@ -2,12 +2,7 @@
 import {
   FiGithub,
   FiLinkedin,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
-  FiMapPin,
   FiFigma
 } from 'react-icons/fi';
 
@@ -68,7 +63,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiMail />,
-    href: '',
+    href: '/contact',
   },
   {
     icon: <FiFigma />,
@@ -124,13 +119,12 @@ export const project = [
   {
     projectImg: Project6,
     projectName: 'Sweet-Living',
-    projectText: 'Swee-Living website allows realtors and users around the world to buy,sell and rent real estate properties.A user is able to view the available real estate properties and contact the agent involved for purchase.',
+    projectText: 'Sweet-Living website allows realtors and users around the world to buy,sell and rent real estate properties.A user is able to view the available real estate properties and contact the agent involved for purchase.',
     demoLink: '',
     githubLink: ''
   },
 ];
 
-// projects
 
 
 // skill
@@ -209,18 +203,3 @@ export const blogs = [
   },
 ];
 
-// contact
-export const contact = [
-  {
-    icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
-  },
-  {
-    icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
-  },
-];
