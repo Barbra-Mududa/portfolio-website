@@ -21,7 +21,7 @@ import {
 // projects imagespng
 import Project1 from './assets/img/projects/first-portfolio.png';
 import Project2 from './assets/img/projects/safiri.png';
-import Project3 from './assets/img/projects/enigmatic.png';
+import Project3 from './assets/img/projects/image3.jpg';
 import Project4 from './assets/img/projects/vikali.png';
 import Project5 from './assets/img/projects/movieforum.png';
 import Project6 from './assets/img/projects/sw-eet-living.png';
@@ -120,40 +120,46 @@ export const social = [
 // projects
 export const projectsData = [
   {
-    id: '1',
-    image: Project1,
-    name: 'About-Me',
-    category: 'From impactful projects to successful collaborations, this showcase embodies the culmination of my skills and serves as a testament to my commitment to excellence in every endeavor.',
+    projectImg: Project1,
+    projectName: 'About-Me',
+    projectText: 'From impactful projects to successful collaborations, this showcase embodies the culmination of my skills and serves as a testament to my commitment to excellence in every endeavor.',
+    demoLink: '',
+    githubLink: ''
   },
   {
-    id: '2',
-    image: Project2,
-    name: 'Safiri-Kenya',
-    category: 'Embark on unforgettable adventures through exhilarating  trails, immersive camping experiences, and breathtaking Kenya Safaris that will ignite your spirit.',
+    projectImg: Project2,
+    projectName: 'Safiri-Kenya',
+    projectText: 'Embark on unforgettable adventures through exhilarating  trails, immersive camping experiences, and breathtaking Kenya Safaris that will ignite your spirit.',
+    demoLink: '',
+    githubLink: ''
   },
   {
-    id: '3',
     image: Project3,
-    name: 'Enigmatic',
-    category: 'Hiking events website that enables hikers explore the beauty of nature in Kenya. The hiker is able to pick a hike of choice and join the rest of the hiking community in its adventures.',
+    projectName: 'Enigmatic',
+    projectText: 'Hiking events website that enables hikers explore the beauty of nature in Kenya. The hiker is able to pick a hike of choice and join the rest of the hiking community in its adventures.',
+    demoLink: '',
+    githubLink: ''
   },
   {
-    id: '4',
-    image: Project4,
-    name: 'Vikali',
-    category: 'Vikali seeks to create an online store for consumers so that it is simple to shop for your favorite items from the vast array of online shopping websites that are readily available on the internet.',
+    projectImg: Project4,
+    projectName: 'Vikali',
+    projectText: 'Vikali seeks to create an online store for consumers so that it is simple to shop for your favorite items from the vast array of online shopping websites that are readily available on the internet.',
+    demoLink: '',
+    githubLink: ''
   },
   {
-    id: '5',
-    image: Project5,
-    name: 'Movie-Forum',
-    category: '>This is a simple web app that allows movie lovers around the world to come to our platform and checkout the latest and highest rated films.A user is able to view the latest titles and reviews by other users.',
+    projectImg: Project5,
+    projectName: 'Movie-Forum',
+    projectText: 'This is a simple web app that allows movie lovers around the world to come to our platform and checkout the latest and highest rated films.A user is able to view the latest titles and reviews by other users.',
+    demoLink: '',
+    githubLink: ''
   },
   {
-    id: '6',
-    image: Project6,
-    name: 'Sweet-Living',
-    category: 'Swee-Living website allows realtors and users around the world to buy,sell and rent real estate properties.A user is able to view the available real estate properties and contact the agent involved for purchase.',
+    projectImg: Project6,
+    projectName: 'Sweet-Living',
+    projectText: 'Swee-Living website allows realtors and users around the world to buy,sell and rent real estate properties.A user is able to view the available real estate properties and contact the agent involved for purchase.',
+    demoLink: '',
+    githubLink: ''
   },
 ];
 
