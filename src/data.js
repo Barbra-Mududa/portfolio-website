@@ -85,7 +85,7 @@ export const social = [
 ];
 
 // projects
-export const projectsData = [
+export const project = [
   {
     projectImg: Project1,
     projectName: 'About-Me',

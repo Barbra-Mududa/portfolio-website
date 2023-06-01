@@ -3,8 +3,8 @@ import Navbar from './components/navbar/Navbar';
 import Hero from './components/home/Hero';
 import About from './components/home/About';
 import Skills from './components/home/Skills';
-import PSection from './components/projects/PSection';
 import Blog from './components/blogs/Blog';
+import Projects from './components/projects/Projects';
 
 const App = () => {
   return <div>
@@ -12,9 +12,8 @@ const App = () => {
     <Hero />
     <About />
     <Skills />
-    <PSection />
+    <Projects />
     <Blog />
-    <div style={{height: '2000px'}}></div>
   </div>;
 };
 
