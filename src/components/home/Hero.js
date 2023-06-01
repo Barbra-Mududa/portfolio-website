@@ -1,5 +1,6 @@
 import React from 'react'
 import WomanImage from '../../assets/img/s-pic.jpeg'
+import Socials from '../navbar/Socials'
 import '../style.css'
 
 const Hero = () => {
@@ -7,6 +8,9 @@ const Hero = () => {
     <section id='home' className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover
     lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
         <div className='container mx-auto h-full'>
+            <div>
+              <Socials />
+            </div>
             <div className='flex items-center h-full pt-8'>
               <div className='flex-1 flex-col items-center items-start'>
                 <p id='intro-txt' className='text-lg text-accent mb-[22px]'>Hey, I'm Barbra 👋</p>
