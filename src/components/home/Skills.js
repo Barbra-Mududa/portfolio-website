@@ -8,7 +8,7 @@ const Skills = () => {
             <div id='icons' className='grid grid-cols-5 md:grid-flow-row'>
                 {skills.map((skill, index) => {
                     return(
-                      <div className='flex justify-center items-center'>
+                      <div className='flex justify-center items-center' key={index}>
                        <img src={skill.image} alt=''/> 
                       </div> 
                     )
