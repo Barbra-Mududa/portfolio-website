@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Logo from './Logo';
-import Socials from './Socials';
+// import Socials from './Socials';
 import Mobile from './Mobile';
 import '../style.css';
 
@@ -22,9 +22,9 @@ function Navbar() {
       <div className='hidden lg:block'>
         <Logo />
       </div>
-      <div className='hidden lg:block'>
+      {/* <div className='hidden lg:block'>
         <Socials />
-      </div>
+      </div> */}
       <div className='lg:hidden'>
         <Mobile />
       </div>
