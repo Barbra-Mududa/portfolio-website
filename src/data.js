@@ -18,13 +18,13 @@ import {
 // import BehanceBrandIcon from './assets/img/brands/behance.png';
 // import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
-// projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+// projects imagespng
+import Project1 from './assets/img/projects/first-portfolio.png';
+import Project2 from './assets/img/projects/safiri.png';
+import Project3 from './assets/img/projects/enigmatic.png';
+import Project4 from './assets/img/projects/vikali.png';
+import Project5 from './assets/img/projects/movieforum.png';
+import Project6 from './assets/img/projects/sw-eet-living.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -122,38 +122,38 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'About-Me',
+    category: 'From impactful projects to successful collaborations, this showcase embodies the culmination of my skills and serves as a testament to my commitment to excellence in every endeavor.',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Safiri-Kenya',
+    category: 'Embark on unforgettable adventures through exhilarating  trails, immersive camping experiences, and breathtaking Kenya Safaris that will ignite your spirit.',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Enigmatic',
+    category: 'Hiking events website that enables hikers explore the beauty of nature in Kenya. The hiker is able to pick a hike of choice and join the rest of the hiking community in its adventures.',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Vikali',
+    category: 'Vikali seeks to create an online store for consumers so that it is simple to shop for your favorite items from the vast array of online shopping websites that are readily available on the internet.',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Movie-Forum',
+    category: '>This is a simple web app that allows movie lovers around the world to come to our platform and checkout the latest and highest rated films.A user is able to view the latest titles and reviews by other users.',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'Sweet-Living',
+    category: 'Swee-Living website allows realtors and users around the world to buy,sell and rent real estate properties.A user is able to view the available real estate properties and contact the agent involved for purchase.',
   },
 ];
 
