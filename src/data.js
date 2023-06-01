@@ -11,13 +11,6 @@ import {
   FiFigma
 } from 'react-icons/fi';
 
-// companies icons
-// import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-// import UpworkBrandIcon from './assets/img/brands/upwork.png';
-// import FiverBrandIcon from './assets/img/brands/fiverr.png';
-// import BehanceBrandIcon from './assets/img/brands/behance.png';
-// import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
-
 // projects imagespng
 import Project1 from './assets/img/projects/first-portfolio.png';
 import Project2 from './assets/img/projects/safiri.png';
@@ -41,9 +34,11 @@ import SkillImg11 from './assets/img/skills/jira.png';
 
 
 // blogs images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import Image1 from './assets/img/blog/app-service.png';
+import Image2 from './assets/img/blog/sql.png';
+import Image3 from './assets/img/blog/static.png';
+import Image4 from './assets/img/blog/disks.png';
+import Image5 from './assets/img/blog/ec2.png';
 
 // navigation
 export const navigation = [
@@ -56,16 +51,12 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: 'projects',
+    href: 'projects',
   },
   {
-    name: 'services',
-    href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: 'blogs',
+    href: 'blogs',
   },
   {
     name: 'contact',
@@ -92,30 +83,6 @@ export const social = [
     href: 'https://www.linkedin.com/in/barbra-mududa-30a36124b/',
   },
 ];
-
-// companies
-// export const brands = [
-//   {
-//     img: FreelancerBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: UpworkBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: FiverBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: BehanceBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: DribbbleBrandIcon,
-//     href: '',
-//   },
-// ];
 
 // projects
 export const projectsData = [
@@ -164,20 +131,7 @@ export const projectsData = [
 ];
 
 // projects
-export const projectsNav = [
-  {
-    name: 'all',
-  },
-  {
-    name: 'UI/UX Design',
-  },
-  {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
-  },
-];
+
 
 // skill
 export const skills = [
@@ -216,56 +170,42 @@ export const skills = [
   },
 ];
 
-// services
-export const services = [
+// blogs
+export const blogs = [
   {
-    icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    blogImg: Image1,
+    blogName:'Azure App Service with a SQL Database using Node.js',
+    blogText:
+      'Discover the synergy of app service and SQL database: efficient application development and seamless data management for optimal performance.',
+    blogLink: 'https://dev.to/b_mududa/creating-an-azure-app-service-with-a-sql-database-using-nodejs-lj3',
   },
   {
-    icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    blogImg: Image2,
+    blogName:'SQL Commands Guide',
+    blogText:
+      'SQL, or Structured Query Language, is a programming language used to manage data stored in relational databases.SQL statements are used to manage and manipulate data in these tables...',
+    blogLink: 'https://dev.to/b_mududa/sql-statements-guidecheat-sheet-4em4',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    blogImg: Image3,
+    blogName:'Creating a Static Web App on Azure Using a Linux VM',
+    blogText:
+      'Static web apps have grown in popularity for a wide range of applications. You can quickly deploy your React project as a static web app on Microsoft Azure ...',
+    blogLink: 'https://dev.to/b_mududa/creating-a-static-web-app-on-azure-using-a-linux-vm-deploy-your-react-app-with-create-static-web-app-m7l',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    blogImg: Image4,
+    blogName:'Guide to adding storage disks to Azure Linux VM',
+    blogText:
+      'Azure Disks create more storage or flexibility.This step-by-step guide will show you how to create, connect, and format a data disk for your Linux VM in Azure...',
+    blogLink: 'Olivia Doe',
   },
   {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    blogImg: Image5,
+    blogName:'Mastering the Art of Instance Management',
+    blogText:
+      'Amazon Elastic Compute Cloud (EC2) is a cloud computing service that provides scalable computing capacity in the Amazon Web Services (AWS) cloud...',
+    blogLink: 'https://dev.to/b_mududa/mastering-the-art-of-instance-management-a-comprehensive-guide-to-creating-and-terminating-instances-like-a-pro-2kio',
   },
 ];
 
